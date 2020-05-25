@@ -84,8 +84,8 @@ The feature list of original data set can be viewed in the `UCI HAR Dataset/feat
 |   72  | fBodyAccMag-meanFreq()  | numeric | [-1, 1] | Frequency domain, Average of mean frquences for the magnitude of body acceleration.                       |
 |   73  | fBodyBodyAccJerkMag-mean()| numeric | [-1, 1] | Frequency domain, Average of means for the magnitude of jerk of body acceleration.                      |
 |   74  | fBodyBodyAccJerkMag-mean()| numeric | [-1, 1] | Frequency domain, Average of mean frequencies for the magnitude of jerk of body acceleration.           |
-
-
+|   75  | fBodyBodyGyroMag-meanFreq()| numeric | [-1, 1] | Frequency domain, Average of means for the magnitude of frequences of angular velocity.                |
+|   76  | fBodyBodyGyroJerkMag-mean()| numeric | [-1, 1] | Frequency domain, Average of means for the magnitude of jerks of angular velocity.                |
 
 
 
