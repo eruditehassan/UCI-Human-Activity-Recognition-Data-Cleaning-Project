@@ -97,7 +97,9 @@ Following transformations and changes were applied on the original dataset to cl
 6. `feature names` dataset was imported from file `features.txt` and the names of `HAR`dataset was updated with that to make it descriptive instead of numbered variables
 7. `HAR` dataset was cleaned by removing duplicate columns
 8. `HAR` dataset was updated by changing activity levels to `Activity labels` to make it descriptive.
-
+9. A separate dataset was created by grouping `HAR` dataset by `activity` and `subject` columns.
+10. This data was summarized to calculate `average` of all variables and stored in `HAR_summarised`
+11. `HAR` and `HAR_summarized` were exported as tidy datasets.
 
 
 
