@@ -2,6 +2,7 @@
 UCI HAR dataset is cleaned into a tidy dataset with R.
 
 The code used to clean the data is stored in `run_analysis.R` which first imports all the datasets from `./UCI HAR dataset/` directory and then does different operations as mentioned in `CodeBook.md` to clean the data.
+After the cleaning is done, the cleaned data is exported into `Tidy_dataset.txt` and `Averaged_tidy_dataset.txt` files
 
 ## Details of Dataset
 Abstract: Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
