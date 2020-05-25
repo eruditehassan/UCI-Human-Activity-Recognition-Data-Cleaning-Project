@@ -87,7 +87,16 @@ The feature list of original data set can be viewed in the `UCI HAR Dataset/feat
 |   75  | fBodyBodyGyroMag-meanFreq()| numeric | [-1, 1] | Frequency domain, Average of means for the magnitude of frequences of angular velocity.                |
 |   76  | fBodyBodyGyroJerkMag-mean()| numeric | [-1, 1] | Frequency domain, Average of means for the magnitude of jerks of angular velocity.                |
 
-
+## Data Cleaning Process
+Following transformations and changes were applied on the original dataset to clean it:
+1. `Activity labels` stored in file `activity_labels.txt` were imported and converted to `factors`
+2. A dataset `activity label id` dataframe was created by combining `test` and `train` activity id datasets from files `y_test.txt` and `y_train.txt` respectively.
+3. `activity label id` dataset was converted into `factors` so that it can be replaced with actual labels later
+4. `subject id` dataset was created by combining `test` and `train` subject id datasets from files `subject_test.txt` and `subject_train.txt` respectively.
+5. `HAR` dataset was created by combining `test` and `train` datasets stored in files `X_test` and `X_train` respectively.
+6. `feature names` dataset was imported from file `features.txt` and the names of `HAR`dataset was updated with that to make it descriptive instead of numbered variables
+7. `HAR` dataset was cleaned by removing duplicate columns
+8. `HAR` dataset was updated by changing activity levels to `Activity labels` to make it descriptive.
 
 
 
