@@ -41,6 +41,6 @@ run_analysis <- function(){
   ## Extracting only useful columns
   har_summarised <- select(har_summarised, -c(activity,subject))
   ## Exporting datasets
-  write.table(har, "./Tidy_dataset.txt",sep=" ")
-  write.table(har_summarised, "./Averaged_tidy_dataset.txt",sep=" ")
+  write.table(har, "./Tidy_dataset.txt",sep=" ", row.name=FALSE)
+  write.table(har_summarised, "./Averaged_tidy_dataset.txt",sep=" ", row.name=FALSE)
 }
